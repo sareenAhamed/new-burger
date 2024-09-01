@@ -37,6 +37,7 @@ const Navbar = () => {
                 <li className='mb-2 font-semibold rounded mx-2 hover:bg-slate-300 active:bg-white focus-within:bg-white px-32 py-1 sm:px-3'>
                     <NavLink to='/link4'>Link4</NavLink>
                 </li>
+                
             </ul>
         </div>
     </nav>
