@@ -19,8 +19,8 @@ const Navbar = () => {
         </div>
 
         {/* Burger menu */}
-        <div className=''>
-            <img className={click ? "burger" : 'h-4 w-4 md:hidden'} src={click ? cross: menu} alt="" onClick={handleBurger} />
+        <div className='relative'>
+            <img className='h-4 w-4 md:hidden absolute transform translate-x-96 -translate-y-5' src={click ? cross: menu} alt="" onClick={handleBurger} />
         </div>
 
         <div>
